@@ -2,11 +2,166 @@
 <html lang="ru">
 <head>
 	<title>CV</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/all.css">
 	<link rel="stylesheet" href="style.css">
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 </head>
 
 <body>
-	<h1>Тут будет моё CV</h1>
+<div class="wraper">
+	<header class="header">
+		<div class="header_container">
+			<nav><ul class="nav">
+				<li class="nav-item"><a href="#about">ABOUT ME</a></li>
+				<li class="nav-item"><a href="#experience">EXPERIENCE</a></li>
+				<li class="nav-item"><a href="#education">EDUCATION</a></li>
+				<li class="nav-item"><a href="#skills">SKILLS</a></li>
+				<li class="nav-item"><a href="#contacts">CONTACTS</a></li>
+			</ul></nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="main_container">
+			<div class="main-block">
+				<div class="flex-black">
+					<div class="block-photo">
+						<img src="img/photo-main.jpg" class="photo-img" alt="Dmitry Matyshev">
+					</div>
+					<div class="flex-information">
+						<div class="flex-left-black"></div>
+						<div class="flex-right-black">
+							<h2 id="education" class="h2-black">EDUCATION</h2>
+							<div class="line-black"></div>
+							<ul>
+								<li>
+									<div class="item-black"><a href="https://ngl.by" target="blank">Lyceum in Novopolotsk</a></div>
+									<div class="text-black">2020-2022</div>
+								</li>
+								<li>
+									<div class="item-black"><a href="https://rs.school/js-stage0" target="blank">"JS/FRONT-END. STAGE 0"</a><br><span class="item-span-black">(in process)</span></div>
+								<div class="text-black">2022</div>
+								</li>
+							</ul>
+
+							<h2 id="skills" class="h2-black">SKILLS</h2>
+							<div class="line-black"></div>
+							<ul>
+								<li>
+									<div class="item-black">HTML-5/CSS-3</div>
+									<div class="skills-flex-black">
+										<div class="html-l"></div>
+										<div class="html-r"></div>
+									</div>
+								</li>
+								<li>
+									<div class="item-black">Git/GitHub</div>
+									<div class="skills-flex-black">
+										<div class="git-l"></div>
+										<div class="git-r"></div>
+									</div>
+								</li>
+								<li>
+									<div class="item-black">JavaScript</div>
+									<div class="skills-flex-black">
+										<div class="java-l"></div>
+										<div class="java-r"></div>
+									</div>
+								</li>
+								<li>
+									<div class="item-black">Adobe Premiere Pro</div>
+									<div class="skills-flex-black">
+										<div class="adobe-l"></div>
+										<div class="adobe-r"></div>
+									</div>
+								</li>
+							</ul>
+
+							<h2 id="contacts" class="h2-black">CONTACTS</h2>
+							<div class="line-black"></div>
+							<ul>
+								<li class="contacts-item-black svg1"><a href="https://github.com/DeeMooR" target="blank">DeeMooR</a></li>
+								<li class="contacts-item-black svg2">Dmitry Matyshev</li>
+								<li class="contacts-item-black svg3"><a href="https://mail.google.com" target="blank">deemoor4@gmail.com</a></li>
+								<li class="contacts-item-black svg4"><a href="https://www.instagram.com/deemoor.7" target="blank">@deemoor.7</a></li>
+								<li class="contacts-item-black svg5">@DeeMooR</li>
+							</ul>
+
+							<h2 class="h2-black">LANGUAGES</h2>
+							<div class="line-black"></div>
+							<ul>
+								<li class="lng-item-black margin1">Russian - Native</li>
+								<li class="lng-item-black">English - A2</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="flex-white">
+					<div class="block-orange">
+						<div class="block-name">
+							<h1>DMITRY<span>MATYSHEV</span></h1>
+							<div class="profession">FRONT-END DEVELOPER</div>
+						</div>
+					</div>
+					<div class="white-information">
+						<h2 id="about" class="h2-white">ABOUT ME</h2>
+						<div class="line-white"></div>
+						<div class="text-white">I am 17 years old and not so long ago I found my calling in programming) I watched a video on YouTube and gradually studied HTML, CSS, JavaScript.
+						<br>
+						<br>
+						I am also fond of assembling the Rubik's Cube for speed. At the age of 15, together with my friend, I organized official competitions in which 44 speedcubers took part. I love making videos. 2 years ago I took my first freelance order: travel video editing. I also love taking photos and editing them.</div>
+
+						<h2 id="experience" class="h2-white">EXPERIENCE</h2>
+						<div class="line-white"></div>
+						<div class="item-experience">
+							<a href="https://deemoor.github.io/GoCorona/" class="experience-before" target="blank">
+								<img src="img/GoCorona.png" class="experience-img" alt="GoCorona">
+							</a>
+							<div class="experience-text">GoCorona</div>
+						</div>
+						<div class="item-experience">
+							<a href="https://deemoor.github.io/Oxxxymiron/" class="experience-before" target="blank">
+								<img src="img/Oxxxymiron.png" class="experience-img" alt="Oxxxymiron">
+							</a>
+							<div class="experience-text">Oxxxymiron</div>
+						</div>
+
+						<h2 class="h2-white">CODE EXAMPLES</h2>
+						<div class="line-white"></div>
+						<div class="text-code">
+							<span class="s1">function</span> <span class="s4">switchItUp</span>(number) { <br>
+							  <span class="s1 p1">switch</span> (number) { <br>
+							    <span class="s1 p2">case</span> <span class="s2">1</span>: <span class="s1">return</span> <span class="s3">'One'</span>; <br>
+							    <span class="s1 p2">case</span> <span class="s2">2</span>: <span class="s1">return</span> <span class="s3">'Two'</span>; <br>
+							    <span class="s1 p2">case</span> <span class="s2">3</span>: <span class="s1">return</span> <span class="s3">'Three'</span>; <br>
+							  <span class="p1">}</span> <br>
+							}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="flex-footer">
+			<div class="item-footer">
+				<a href="https://github.com/DeeMooR" target="blank"><img src="img/logo/github.svg" class="photo-footer" alt="GitHub"></a>
+			</div>
+			<div class="item-footer">2022</div>
+			<div class="item-footer">
+				<a href="https://rs.school/js/" target="blank"><img src="img/logo/rs_school.svg" class="photo-footer" alt="RS School"></a>
+			</div>
+		</div>
+	</footer>
+</div>
 </body>
 </html>

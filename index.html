@@ -16,13 +16,13 @@
 <div class="wraper">
 	<header class="header">
 		<div class="header_container">
-			<nav class="nav">
-				<a href="#about" class="nav_item">ABOUT ME</a>
-				<a href="#experience" class="nav_item">EXPERIENCE</a>
-				<a href="#education" class="nav_item">EDUCATION</a>
-				<a href="#skills" class="nav_item">SKILLS</a>
-				<a href="#contacts" class="nav_item">CONTACTS</a>
-			</nav>
+			<nav><ul class="nav">
+				<li class="nav-item"><a href="#about">ABOUT ME</a></li>
+				<li class="nav-item"><a href="#experience">EXPERIENCE</a></li>
+				<li class="nav-item"><a href="#education">EDUCATION</a></li>
+				<li class="nav-item"><a href="#skills">SKILLS</a></li>
+				<li class="nav-item"><a href="#contacts">CONTACTS</a></li>
+			</ul></nav>
 		</div>
 	</header>
 
@@ -31,53 +31,73 @@
 			<div class="main-block">
 				<div class="flex-black">
 					<div class="block-photo">
-						<img src="img/photo3.JPG" class="photo-img" alt="Dmitry Matyshev">
+						<img src="img/photo2.JPG" class="photo-img" alt="Dmitry Matyshev">
 					</div>
 					<div class="flex-information">
 						<div class="flex-left-black"></div>
 						<div class="flex-right-black">
 							<h2 id="education" class="h2-black">EDUCATION</h2>
 							<div class="line-black"></div>
-							<div class="item-black"><a href="https://ngl.by" target="blank">Lyceum in Novopolotsk</a></div>
-							<div class="text-black">2020-2022</div>
-							<div class="item-black"><a href="https://rs.school/js-stage0" target="blank">"JS/FRONT-END. STAGE 0"</a><br><span class="item-span-black">(in process)</span></div>
-							<div class="text-black">2022</div>
+							<ul>
+								<li>
+									<div class="item-black"><a href="https://ngl.by" target="blank">Lyceum in Novopolotsk</a></div>
+									<div class="text-black">2020-2022</div>
+								</li>
+								<li>
+									<div class="item-black"><a href="https://rs.school/js-stage0" target="blank">"JS/FRONT-END. STAGE 0"</a><br><span class="item-span-black">(in process)</span></div>
+								<div class="text-black">2022</div>
+								</li>
+							</ul>
 
 							<h2 id="skills" class="h2-black">SKILLS</h2>
 							<div class="line-black"></div>
-							<div class="item-black">HTML-5/CSS-3</div>
-							<div class="skills-flex-black">
-								<div class="html-l"></div>
-								<div class="html-r"></div>
-							</div>
-							<div class="item-black">Git/GitHub</div>
-							<div class="skills-flex-black">
-								<div class="git-l"></div>
-								<div class="git-r"></div>
-							</div>
-							<div class="item-black">JavaScript</div>
-							<div class="skills-flex-black">
-								<div class="java-l"></div>
-								<div class="java-r"></div>
-							</div>
-							<div class="item-black">Adobe Premiere Pro</div>
-							<div class="skills-flex-black">
-								<div class="adobe-l"></div>
-								<div class="adobe-r"></div>
-							</div>
+							<ul>
+								<li>
+									<div class="item-black">HTML-5/CSS-3</div>
+									<div class="skills-flex-black">
+										<div class="html-l"></div>
+										<div class="html-r"></div>
+									</div>
+								</li>
+								<li>
+									<div class="item-black">Git/GitHub</div>
+									<div class="skills-flex-black">
+										<div class="git-l"></div>
+										<div class="git-r"></div>
+									</div>
+								</li>
+								<li>
+									<div class="item-black">JavaScript</div>
+									<div class="skills-flex-black">
+										<div class="java-l"></div>
+										<div class="java-r"></div>
+									</div>
+								</li>
+								<li>
+									<div class="item-black">Adobe Premiere Pro</div>
+									<div class="skills-flex-black">
+										<div class="adobe-l"></div>
+										<div class="adobe-r"></div>
+									</div>
+								</li>
+							</ul>
 
 							<h2 id="contacts" class="h2-black">CONTACTS</h2>
 							<div class="line-black"></div>
-							<div class="contacts-item-black svg1"><a href="https://github.com/DeeMooR" target="blank">DeeMooR</a></div>
-							<div class="contacts-item-black svg2">Dmitry Matyshev</div>
-							<div class="contacts-item-black svg3"><a href="https://mail.google.com" target="blank">deemoor4@gmail.com</a></div>
-							<div class="contacts-item-black svg4"><a href="https://www.instagram.com/deemoor.7" target="blank">@deemoor.7</a></div>
-							<div class="contacts-item-black svg5">@DeeMooR</div>
+							<ul>
+								<li class="contacts-item-black svg1"><a href="https://github.com/DeeMooR" target="blank">DeeMooR</a></li>
+								<li class="contacts-item-black svg2">Dmitry Matyshev</li>
+								<li class="contacts-item-black svg3"><a href="https://mail.google.com" target="blank">deemoor4@gmail.com</a></li>
+								<li class="contacts-item-black svg4"><a href="https://www.instagram.com/deemoor.7" target="blank">@deemoor.7</a></li>
+								<li class="contacts-item-black svg5">@DeeMooR</li>
+							</ul>
 
 							<h2 class="h2-black">LANGUAGES</h2>
 							<div class="line-black"></div>
-							<div class="lng-item-black margin1">Russian - Native</div>
-							<div class="lng-item-black">English - A2</div>
+							<ul>
+								<li class="lng-item-black margin1">Russian - Native</li>
+								<li class="lng-item-black">English - A2</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -102,11 +122,15 @@
 						<h2 id="experience" class="h2-white">EXPERIENCE</h2>
 						<div class="line-white"></div>
 						<div class="item-experience">
-							<img src="img/GoCorona.png" class="experience-img" alt="GoCorona">
+							<a href="https://deemoor.github.io/GoCorona/" class="experience-before" target="blank">
+								<img src="img/GoCorona.png" class="experience-img" alt="GoCorona">
+							</a>
 							<div class="experience-text">GoCorona</div>
 						</div>
 						<div class="item-experience">
-							<img src="img/Oxxxymiron.png" class="experience-img" alt="Oxxxymiron">
+							<a href="https://deemoor.github.io/Oxxxymiron/" class="experience-before" target="blank">
+								<img src="img/Oxxxymiron.png" class="experience-img" alt="Oxxxymiron">
+							</a>
 							<div class="experience-text">Oxxxymiron</div>
 						</div>
 
